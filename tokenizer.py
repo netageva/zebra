@@ -42,11 +42,18 @@ class ReportTokenizer:
 
     def create_tokens_sentences(self):
 
-        sents = [sent.strip() + '.' for sent in self.report.strip().split('.') if sent.strip() != '']
+        sents = [sent.strip() + '.' for sent in self.report.strip().split('\n') if sent.strip() != '']
         sents_token = [Tokenizer(sent).customized() for sent in sents]
         sents_join = [' '.join(sent) for sent in sents_token]
 
         return sents_join
+
+    def create_tokens_split_sentences(self):
+
+        sents = [sent.strip() + '.' for sent in self.report.strip().split('\n') if sent.strip() != '']
+        sents_token = [Tokenizer(sent).customized() for sent in sents]
+
+        return sents_token
 
     def save_to_file(self, file_name):
         token_sents = self.create_tokens_sentences()
