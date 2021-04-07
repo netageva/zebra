@@ -1,190 +1,137 @@
-absl-py==0.11.0
+absl-py @ file:///C:/ci/absl-py_1615411229697/work
 altair==4.1.0
-appdirs==1.4.4
 argon2-cffi==20.1.0
-asgiref==3.2.10
 astor==0.8.1
 astunparse==1.6.3
 async-generator==1.10
-atomicwrites==1.4.0
-atpublic==2.1.3
-attrs==20.3.0
+async-timeout==3.0.1
+attrs @ file:///tmp/build/80754af9/attrs_1604765588209/work
 backcall==0.2.0
 base58==2.1.0
-beautifulsoup4==4.9.3
 bleach==3.3.0
 blinker==1.4
-blis==0.7.4
-bs4==0.0.1
-cachetools==4.2.0
-catalogue==1.0.0
-certifi==2020.6.20
-cffi==1.14.4
-chardet==3.0.4
-click==7.1.2
+brotlipy==0.7.0
+cachetools @ file:///tmp/build/80754af9/cachetools_1611600262290/work
+certifi==2020.12.5
+cffi @ file:///C:/ci/cffi_1613247279197/work
+chardet @ file:///C:/ci/chardet_1605303225733/work
+click @ file:///home/linux1/recipes/ci/click_1610990599742/work
 colorama==0.4.4
-commonmark==0.9.1
-config==0.5.0.post0
-configobj==5.0.6
-cymem==2.0.5
-dagshub==0.1.6
-decorator==4.4.2
-defusedxml==0.7.0
-dictdiffer==0.8.1
-distlib==0.3.1
-distro==1.5.0
-Django==3.1.2
-dpath==2.0.1
-dulwich==0.20.19
-dvc==1.11.16
-elasticsearch==5.4.0
-en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.3.1/en_core_web_sm-2.3.1.tar.gz
+coverage @ file:///C:/ci/coverage_1614615074147/work
+cryptography @ file:///C:/ci/cryptography_1615532531877/work
+Cython @ file:///C:/ci/cython_1614014958194/work
+decorator==5.0.5
+defusedxml==0.7.1
+docopt==0.6.2
 entrypoints==0.3
 filelock==3.0.12
-Flask==1.1.2
-flatbuffers==1.12
-flatten-dict==0.3.0
-flufl.lock==3.2
-ftfy==5.9
-funcy==1.15
-future==0.18.2
-gast==0.3.3
-geographiclib==1.50
-geopy==2.0.0
-gevent==20.9.0
-gitdb==4.0.5
-GitPython==3.1.13
-google-auth==1.24.0
-google-auth-oauthlib==0.4.2
+gast @ file:///tmp/build/80754af9/gast_1597433534803/work
+gitdb==4.0.7
+GitPython==3.1.14
+gluonnlp==0.8.3
 google-pasta==0.2.0
-grandalf==0.6
-great-circle-calculator==1.1.0
-greenlet==0.4.17
-grequests==0.6.0
-grpcio==1.32.0
-gunicorn==20.0.4
+graphviz==0.8.4
+grpcio @ file:///C:/ci/grpcio_1614884412260/work
 h5py==2.10.0
-idna==2.10
-iniconfig==1.1.1
-ipykernel==5.5.0
-ipython==7.21.0
+hebrew-tokenizer==2.0.0
+idna==2.6
+importlib-metadata @ file:///C:/ci/importlib-metadata_1615900494248/work
+ipykernel==5.5.3
+ipython==7.22.0
 ipython-genutils==0.2.0
 ipywidgets==7.6.3
-itsdangerous==1.1.0
 jedi==0.18.0
-Jinja2==2.11.2
+Jinja2==2.11.3
 joblib==1.0.1
-jsonpath-ng==1.5.2
 jsonschema==3.2.0
-jupyter-client==6.1.11
+jupyter-client==6.1.12
 jupyter-core==4.7.1
 jupyterlab-pygments==0.1.2
 jupyterlab-widgets==1.0.0
-Keras-Preprocessing==1.1.2
-llvmlite==0.35.0
-mailchecker==4.0.3
-Markdown==3.3.3
+Keras-Applications @ file:///tmp/build/80754af9/keras-applications_1594366238411/work
+Keras-Preprocessing @ file:///tmp/build/80754af9/keras-preprocessing_1612283640596/work
+Markdown @ file:///C:/ci/markdown_1614364121613/work
 MarkupSafe==1.1.1
 mistune==0.8.4
-murmurhash==1.0.5
-mysql-connector-python==8.0.22
-nanotime==0.5.2
+mkl-fft==1.3.0
+mkl-random==1.1.1
+mkl-service==2.3.0
+-e git+https://github.com/awslabs/mlm-scoring.git@a8fd29f3ca666da386be91eb7c319027603c58a4#egg=mlm
+mosestokenizer==1.1.0
+multidict @ file:///C:/ci/multidict_1607362065515/work
+mxnet-mkl==1.5.0
 nbclient==0.5.3
 nbconvert==6.0.7
-nbformat==5.1.2
+nbformat==5.1.3
 nest-asyncio==1.5.1
-networkx==2.5
-notebook==6.2.0
-numpy==1.20.1
+notebook==6.3.0
+numpy==1.16.6
 oauthlib==3.1.0
-opt-einsum==3.3.0
-packaging==20.7
-pandas==1.1.4
+openfile==0.0.7
+opt-einsum==3.1.0
+packaging==20.9
+pandas @ file:///C:/ci/pandas_1614711443373/work
 pandocfilters==1.4.3
-parso==0.8.1
-pathlib2==2.3.5
-pathspec==0.8.1
-phonenumbers==8.12.18
+parso==0.8.2
 pickleshare==0.7.5
-Pillow==8.1.1
-plac==1.1.3
-pluggy==0.13.1
-ply==3.11
-preshed==3.0.5
-prometheus-client==0.9.0
-prompt-toolkit==3.0.16
+Pillow==8.2.0
+portalocker==2.0.0
+prometheus-client==0.10.0
+prompt-toolkit==3.0.18
 protobuf==3.14.0
-py==1.9.0
 pyarrow==3.0.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
-pycparser==2.20
+pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
 pydeck==0.6.1
-pydot==1.4.2
-Pygments==2.8.0
-pygtrie==2.3.2
+Pygments==2.8.1
+PyJWT==1.7.1
+pyOpenSSL @ file:///tmp/build/80754af9/pyopenssl_1608057966937/work
 pyparsing==2.4.7
+pyreadline==2.1
 pyrsistent==0.17.3
-pytest==6.1.2
-python-benedict==0.23.2
-python-dateutil==2.8.1
-python-fsutil==0.4.0
-python-slugify==4.0.1
-pytz==2020.1
+PySocks @ file:///C:/ci/pysocks_1605287845585/work
+python-dateutil @ file:///home/ktietz/src/ci/python-dateutil_1611928101742/work
+pytz @ file:///tmp/build/80754af9/pytz_1612215392582/work
 pywin32==300
 pywinpty==0.5.7
-PyYAML==5.4.1
 pyzmq==22.0.3
-requests==2.24.0
-requests-oauthlib==1.3.0
-retrying==1.3.3
-rich==9.11.0
-rsa==4.7
-ruamel.yaml==0.16.12
-ruamel.yaml.clib==0.2.2
-scipy==1.6.0
+regex==2021.3.17
+requests==2.18.4
+rsa @ file:///tmp/build/80754af9/rsa_1614366226499/work
+sacrebleu==1.5.1
+sacremoses==0.0.43
+scipy @ file:///C:/ci/scipy_1614023125644/work
 Send2Trash==1.5.0
-shortuuid==1.0.1
-shtab==1.3.4
-six==1.15.0
-slicer==0.0.3
-smmap==3.0.5
-soupsieve==2.0.1
-spacy==2.3.5
-sqlparse==0.4.1
-srsly==1.0.5
-streamlit==0.77.0
-tabulate==0.8.8
-tensorboard==2.4.0
-tensorboard-plugin-wit==1.7.0
-tensorflow-estimator==2.4.0
+sentencepiece==0.1.95
+six @ file:///C:/ci/six_1605187374963/work
+smmap==4.0.0
+streamlit==0.79.0
+tensorboard-plugin-wit==1.6.0
+tensorflow-estimator @ file:///tmp/build/80754af9/tensorflow-estimator_1599136169057/work/whl_temp/tensorflow_estimator-2.3.0-py2.py3-none-any.whl
 termcolor==1.1.0
-terminado==0.9.2
+terminado==0.9.4
 testpath==0.4.4
-text-unidecode==1.3
-textparser==0.23.0
-thinc==7.4.5
-threadpoolctl==2.1.0
+tokenizers==0.8.1rc2
 toml==0.10.2
+toolwrapper==2.1.0
 toolz==0.11.1
+torch==1.8.0
 tornado==6.1
-tqdm==4.55.0
+tqdm==4.59.0
 traitlets==5.0.5
-typing-extensions==3.7.4.3
+transformers==3.3.1
+typing-extensions @ file:///tmp/build/80754af9/typing_extensions_1611751222202/work
 tzlocal==2.1
-urllib3==1.25.11
+uctools==1.3.0
+urllib3==1.22
 validators==0.18.2
-virtualenv==20.1.0
-voluptuous==0.12.1
-wasabi==0.8.0
 watchdog==2.0.2
 wcwidth==0.2.5
 webencodings==0.5.1
-Werkzeug==1.0.1
+Werkzeug @ file:///home/ktietz/src/ci/werkzeug_1611932622770/work
 widgetsnbextension==3.5.1
-win-unicode-console==0.5
+win-inet-pton @ file:///C:/ci/win_inet_pton_1605306167264/work
+wincertstore==0.2
 wrapt==1.12.1
-xmltodict==0.12.0
-zc.lockfile==2.0
-zope.event==4.5.0
-zope.interface==5.2.0
+zipp @ file:///tmp/build/80754af9/zipp_1615904174917/work
