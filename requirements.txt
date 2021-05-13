@@ -25,13 +25,16 @@ defusedxml==0.7.1
 docopt==0.6.2
 entrypoints==0.3
 filelock==3.0.12
-gast @ file:///tmp/build/80754af9/gast_1597433534803/work
+flatbuffers==1.12
+gast==0.3.3
 gitdb==4.0.7
 GitPython==3.1.14
 gluonnlp==0.8.3
+google-auth==1.28.0
+google-auth-oauthlib==0.4.4
 google-pasta==0.2.0
 graphviz==0.8.4
-grpcio @ file:///C:/ci/grpcio_1614884412260/work
+grpcio==1.32.0
 h5py==2.10.0
 hebrew-tokenizer==2.0.0
 idna==2.6
@@ -48,6 +51,7 @@ jupyter-client==6.1.12
 jupyter-core==4.7.1
 jupyterlab-pygments==0.1.2
 jupyterlab-widgets==1.0.0
+Keras==2.4.3
 Keras-Applications @ file:///tmp/build/80754af9/keras-applications_1594366238411/work
 Keras-Preprocessing @ file:///tmp/build/80754af9/keras-preprocessing_1612283640596/work
 Markdown @ file:///C:/ci/markdown_1614364121613/work
@@ -56,7 +60,6 @@ mistune==0.8.4
 mkl-fft==1.3.0
 mkl-random==1.1.1
 mkl-service==2.3.0
--e git+https://github.com/awslabs/mlm-scoring.git@a8fd29f3ca666da386be91eb7c319027603c58a4#egg=mlm
 mosestokenizer==1.1.0
 multidict @ file:///C:/ci/multidict_1607362065515/work
 mxnet-mkl==1.5.0
@@ -65,10 +68,10 @@ nbconvert==6.0.7
 nbformat==5.1.3
 nest-asyncio==1.5.1
 notebook==6.3.0
-numpy==1.16.6
+numpy==1.19.5
 oauthlib==3.1.0
 openfile==0.0.7
-opt-einsum==3.1.0
+opt-einsum==3.3.0
 packaging==20.9
 pandas @ file:///C:/ci/pandas_1614711443373/work
 pandocfilters==1.4.3
@@ -95,9 +98,11 @@ python-dateutil @ file:///home/ktietz/src/ci/python-dateutil_1611928101742/work
 pytz @ file:///tmp/build/80754af9/pytz_1612215392582/work
 pywin32==300
 pywinpty==0.5.7
+PyYAML==5.4.1
 pyzmq==22.0.3
 regex==2021.3.17
-requests==2.18.4
+requests==2.25.1
+requests-oauthlib==1.3.0
 rsa @ file:///tmp/build/80754af9/rsa_1614366226499/work
 sacrebleu==1.5.1
 sacremoses==0.0.43
@@ -107,8 +112,10 @@ sentencepiece==0.1.95
 six @ file:///C:/ci/six_1605187374963/work
 smmap==4.0.0
 streamlit==0.79.0
+tensorboard==2.4.1
 tensorboard-plugin-wit==1.6.0
-tensorflow-estimator @ file:///tmp/build/80754af9/tensorflow-estimator_1599136169057/work/whl_temp/tensorflow_estimator-2.3.0-py2.py3-none-any.whl
+tensorflow==2.4.1
+tensorflow-estimator==2.4.0
 termcolor==1.1.0
 terminado==0.9.4
 testpath==0.4.4
