@@ -1,6 +1,6 @@
 # mlm scoring for heBERT
 
-![Image](https://imgur.com/ed2rnzMP)
+![Image](https://github.com/netageva/zebra/blob/master/mlm-scoring.png)
 
 This model uses the method suggested by the autors of [Masked Language Model Scoring]. 
 The goal is to evaluate MLMs via their pseudo-log-likelihood scores (PLLs), which are computed by masking tokens one by one.
